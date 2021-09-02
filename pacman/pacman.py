@@ -28,10 +28,14 @@ while True:
     if y - Raio < 0:
         velo_y = Velocidade
 
+
+
     #Pinta
     tela.fill((Preto))
     pygame.draw.circle(tela, Amarelo, (int(x), int(y)), Raio, 0)
     pygame.display.update()
+
+
 
     #Eventos
     for e in pygame.event.get():
