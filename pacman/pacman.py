@@ -35,8 +35,6 @@ while True:
     pygame.draw.circle(tela, Amarelo, (int(x), int(y)), Raio, 0)
     pygame.display.update()
 
-
-
     #Eventos
     for e in pygame.event.get():
         if e.type == pygame.QUIT:
